@@ -11,5 +11,5 @@
 |
 */
 
-Route::get('/','PagesControllers@home');
-Route::get('about','PagesControllers@about');
+Route::get('cards','CardsController@index');
+Route::get('cards/{card}','CardsController@show');
